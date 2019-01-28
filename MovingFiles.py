@@ -9,8 +9,6 @@ srcpath = "/Users/marcogdepinto/PycharmProjects/DogOrCat/data/train"
 destPathDogs = "/Users/marcogdepinto/PycharmProjects/DogOrCat/data/train/Dogs"
 destPathCats = "/Users/marcogdepinto/PycharmProjects/DogOrCat/data/train/Cats"
 
-count = 0
-
 # Create directories if they not exist
 
 if not os.path.exists(destPathDogs):
