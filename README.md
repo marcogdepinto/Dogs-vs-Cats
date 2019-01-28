@@ -6,13 +6,10 @@ The scope of this project is to create a classifier to predict if an image repre
 
 For this task, I have used the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats/data).
 
-The dataset comes in two folders, train and test.
-
 If you want to make the training on your machine, you have to use the script `MovingFiles.py` to organize the training files in two subfolders, Dogs and Cats, and then launch the script `Train.py`
+(because the dataset comes splitted only in two folders, train and test): on a MacBook Air, the training required 2.5 hours to be completed.
 
-On a MacBook Air, the training required 2.5 hours to be completed.
-
-On the other hand, you can use the model `DogCat.h5` already trained as explained in the Try It! section of this readme.
+On the other hand, if you want to skip the training part, you can use the model `DogCat.h5` as explained in the Try It! section of this readme.
 
 **ModelStructure**
 
@@ -20,7 +17,7 @@ On the other hand, you can use the model `DogCat.h5` already trained as explaine
 
 # Languages and libraries used
 
-- [Python 3.6](https://www.python.org/downloads/release/python-370/)
+- Python 3.6
 - Keras
 - OpenCV
 - Numpy
@@ -29,4 +26,6 @@ On the other hand, you can use the model `DogCat.h5` already trained as explaine
 
 - `git clone https://github.com/marcogdepinto/Dogs-vs-Cats.git`
 
-- Run the file `Predict.py` changing the `PATH` and `FILE` to the local path in which you have downloaded the model `DogCat.h5` and the example file `test.jpeg` (or any other file you want to use).
+- Run the file `Predict.py` changing:
+    - the `PATH` variable to he local path in which you have downloaded the model `DogCat.h5`
+    - the `FILE` variable to the path to the example file `test.jpeg` (or any other file of Dog or Cat you want to use).
