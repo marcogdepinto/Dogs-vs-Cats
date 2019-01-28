@@ -4,7 +4,7 @@ The scope of this project is to create a classifier to predict if an image repre
 
 **Dataset**
 
-For this task, I have used the ![Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats/data).
+For this task, I have used the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats/data).
 
 The dataset comes in two folders, train and test.
 
@@ -12,11 +12,11 @@ If you want to make the training on your machine, you have to use the script `Mo
 
 On a MacBook Air, the training required 2.5 hours to be completed.
 
-On the ot
+On the other hand, you can use the model `DogCat.h5` already trained as explained in the Try It! section of this readme.
 
 **ModelStructure**
 
-![Link do classification report](https://github.com/marcogdepinto/Emotion-Classification-Ravdess/blob/master/media/classificationReport.png)
+![Link do classification report](https://github.com/marcogdepinto/Dogs-vs-Cats/blob/master/model.png)
 
 # Languages and libraries used
 
@@ -27,6 +27,6 @@ On the ot
 
 # Try it!
 
-- `git clone https://github.com/marcogdepinto/Emotion-Classification-Ravdess.git`
+- `git clone https://github.com/marcogdepinto/Dogs-vs-Cats.git`
 
 - Run the file `Predict.py` changing the `PATH` and `FILE` to the local path in which you have downloaded the model `DogCat.h5` and the example file `test.jpeg` (or any other file you want to use).
