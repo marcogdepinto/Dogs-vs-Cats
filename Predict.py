@@ -37,8 +37,9 @@ class Predict:
 
         print( "Prediction completed: this is a", predictions)
 
-# Here you can replace path and file with the path of your model and of the file from the RAVDESS dataset you want to use for the prediction,
-# Below, I have used a neutral file: the prediction made is neutral.
+# Below you should change the variable as follows:
+# the `PATH` variable should be the local path in which you have downloaded the model `DogCat.h5`
+# the `FILE` variable should be the path to the example file `test.jpeg` (or any other file of Dog or Cat you want to use).
 
 pred = Predict(
     path='/Users/marcogdepinto/PycharmProjects/DogOrCat/DogCat.h5',
