@@ -11,7 +11,11 @@ If you want to make the training on your machine, you have to use the script `Mo
 
 On the other hand, if you want to skip the training part, you can use the model `DogCat.h5` as explained in the Try It! section of this readme.
 
-**ModelStructure**
+**Example of Prediction**
+
+![Link do classification report](https://github.com/marcogdepinto/Dogs-vs-Cats/blob/master/ExamplePrediction.png)
+
+**Model Structure**
 
 ![Link do classification report](https://github.com/marcogdepinto/Dogs-vs-Cats/blob/master/model.png)
 
